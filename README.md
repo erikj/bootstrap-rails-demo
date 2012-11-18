@@ -7,3 +7,4 @@ Demo application demonstrating Rails 3.2.9 application running on Heroku and usi
 - <https://devcenter.heroku.com/articles/rails3>
 - <http://railscasts.com/episodes/328-twitter-bootstrap-basics?view=asciicast>
 
+For notes documenting steps followed, see `doc/NOTES.md`
