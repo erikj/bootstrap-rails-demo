@@ -1,4 +1,4 @@
-# heroku-rails329-demo
+# twitter-bootstrap-rails-demo
 
 ## About
 
