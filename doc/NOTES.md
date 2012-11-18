@@ -35,6 +35,7 @@
     log/*.log
     tmp/
     .sass-cache/
+
     # update Gemfile:
     group :development do
       gem "sqlite3"
