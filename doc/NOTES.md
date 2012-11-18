@@ -55,7 +55,7 @@
     % git push heroku master
     % heroku open
 
-### twitter bootstrap'd app
+## twitter bootstrap'd app
 
 <http://railscasts.com/episodes/328-twitter-bootstrap-basics?view=asciicast>
 
