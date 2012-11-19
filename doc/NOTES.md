@@ -1,31 +1,21 @@
 # twitter-bootstrap-rails-demo
 
-## heroku
-
-### install stand-alone client
-
-<https://toolbelt.heroku.com/standalone>
-
-    % wget -qO- https://toolbelt.heroku.com/install.sh | sh
-    % echo 'PATH="/usr/local/heroku/bin:$PATH"' >> ~/.bashrc
-
-### getting started
-
-<https://devcenter.heroku.com/articles/rails3>
-
-    % heroku login
-    Enter your Heroku credentials.
-    Email:
-    Password (typing will be hidden):
-    Authentication successful.
+## create rails app
 
     % cd ~/Dropbox/projects
     % rvm use ruby-1.9.2-p318
     % rvm gemset create rails329
     % rvm gemset use rails329
     % gem install rails
-    % rails new heroku-rails329-demo
-    % cd heroku-rails329-demo
+    # uses ~/.railsrc:
+    # rails 3.2+ only
+    --skip-javascript
+    --skip-bundle
+    --skip-test-unit
+    --skip-git # no .gitkeeps!!!
+
+    % rails new twitter-bootstrap-rails-demo
+    % cd twitter-bootstrap-rails-demo
     % rvm rvmrc create
     % git init .
 
@@ -48,8 +38,30 @@
     % bundle install
     % git add .
     % git commit -m "initial commit"
+
+
+## heroku
+
+### install stand-alone client
+
+<https://toolbelt.heroku.com/standalone>
+
+    % wget -qO- https://toolbelt.heroku.com/install.sh | sh
+    % echo 'PATH="/usr/local/heroku/bin:$PATH"' >> ~/.bashrc
+
+### initialize app
+
+<https://devcenter.heroku.com/articles/rails3>
+
+    % heroku login
+    Enter your Heroku credentials.
+    Email:
+    Password (typing will be hidden):
+    Authentication successful.
+
     % heroku create
-    Creating ... done, stack is cedar
+    Creating enigmatic-shore-7364... done, stack is cedar
+    http://enigmatic-shore-7364.herokuapp.com/ | git@heroku.com:enigmatic-shore-7364.git
     Git remote heroku added
 
     % git push heroku master
