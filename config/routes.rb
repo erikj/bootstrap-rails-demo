@@ -1,4 +1,4 @@
-HerokuRails329Demo::Application.routes.draw do
+TwitterBootstrapRailsDemo::Application.routes.draw do
   resources :products
 
 

@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-HerokuRails329Demo::Application.load_tasks
+TwitterBootstrapRailsDemo::Application.load_tasks
