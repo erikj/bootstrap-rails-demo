@@ -1,5 +1,5 @@
 # switch to default ruby version when exiting directory
 rvm_project_rvmrc_default=1
-rvm ruby-2.0.0@rails4beta1
+rvm ruby-2.0.0
 
 
