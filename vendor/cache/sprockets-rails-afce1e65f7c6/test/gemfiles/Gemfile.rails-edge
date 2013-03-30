@@ -1,0 +1,6 @@
+source :rubygems
+gemspec :path => "./../.."
+
+gem 'actionpack', :github => 'rails/rails'
+gem 'journey', :github => 'rails/journey'
+gem 'railties', :github => 'rails/rails'
