@@ -22,5 +22,5 @@ if [ -e "$PIDFILE" ]; then
   action='restart'
 fi
 
-thin="./bin/thin --daemonize --pid $PIDFILE --environment $RAILS_ENV $action"
+thin="thin --daemonize --pid $PIDFILE --environment $RAILS_ENV $action"
 $thin
