@@ -1,6 +1,6 @@
 #!/bin/bash
 APP_ROOT=/home/molecule/git/tbs-rails-demo
-GIT_WORK_TREE=$APP_ROOT
+export GIT_WORK_TREE=$APP_ROOT
 
 git reset --hard
 git checkout -f
