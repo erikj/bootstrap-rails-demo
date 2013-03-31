@@ -1,7 +1,6 @@
 #!/bin/bash
 APP_ROOT=/home/molecule/git/tbs-rails-demo
-#GIT_WORK_TREE=$APP_ROOT git checkout -f
-
+GIT_WORK_TREE=$APP_ROOT git checkout -f
 
 rvm_env="/usr/local/rvm/scripts/rvm"
 
@@ -23,4 +22,3 @@ bundle install --deployment --without production --path=vendor --local
 
 $APP_ROOT/bin/rake assets:precompile
 $APP_ROOT/restart-thin
-sudo ls -l
