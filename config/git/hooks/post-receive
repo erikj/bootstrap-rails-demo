@@ -1,6 +1,9 @@
 #!/bin/bash
 APP_ROOT=/home/molecule/git/tbs-rails-demo
-git --work-tree=$APP_ROOT checkout -f
+GIT_WORK_TREE=$APP_ROOT
+
+git reset --hard
+git checkout -f
 
 rvm_env="/usr/local/rvm/scripts/rvm"
 
