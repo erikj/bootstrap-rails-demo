@@ -6,7 +6,7 @@ RAILS_ENV=production
 rvm_env="/usr/local/rvm/scripts/rvm"
 
 if [[ -s $rvm_env ]]; then
-  source $rvm_env  # This loads RVM into a shell session.
+  source $rvm_env  # load RVM into a shell session
 else
   printf "ERROR: An RVM installation was not found.\n" && exit 1
 fi
