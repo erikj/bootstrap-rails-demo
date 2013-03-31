@@ -1,0 +1,26 @@
+#!/bin/bash
+APP_ROOT=/home/molecule/git/tbs-rails-demo
+#GIT_WORK_TREE=$APP_ROOT git checkout -f
+
+
+rvm_env="/usr/local/rvm/scripts/rvm"
+
+if [[ -s $rvm_env ]]; then
+  source $rvm_env  # This loads RVM into a shell session.
+else
+  printf "ERROR: An RVM installation was not found.\n" && exit 1
+fi
+
+# use ruby specified in project .rvmrc
+export rvm_project_rvmrc=1
+export rvm_trust_rvmrcs_flag=1
+export rvm_ignore_rvmrc=0
+
+cd $APP_ROOT
+
+#bundle install --deployment --without development
+bundle install --deployment --without production --path=vendor --local
+
+$APP_ROOT/bin/rake assets:precompile
+$APP_ROOT/restart-thin
+sudo ls -l
