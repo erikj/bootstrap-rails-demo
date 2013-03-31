@@ -11,7 +11,7 @@ else
   printf "ERROR: An RVM installation was not found.\n" && exit 1
 fi
 
-# use ruby specified in project .rvmrc
+# use ruby specified in project's .rvmrc
 export rvm_project_rvmrc=1
 export rvm_trust_rvmrcs_flag=1
 export rvm_ignore_rvmrc=0
