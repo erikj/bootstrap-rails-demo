@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-TwitterBootstrapRailsDemo::Application.load_tasks
+TbsRailsDemo::Application.load_tasks

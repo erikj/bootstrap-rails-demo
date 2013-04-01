@@ -1,4 +1,4 @@
-TwitterBootstrapRailsDemo::Application.routes.draw do
+TbsRailsDemo::Application.routes.draw do
   resources :products
 
 
