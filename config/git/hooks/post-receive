@@ -1,5 +1,5 @@
 #!/bin/bash
-APP_ROOT=/home/molecule/git/tbs-rails-demo
+APP_ROOT=/home/molecule/git/bootstrap-rails-demo
 export GIT_WORK_TREE=$APP_ROOT
 
 git reset --hard
