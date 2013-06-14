@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-TbsRailsDemo::Application.load_tasks
+BootstrapRailsDemo::Application.load_tasks
