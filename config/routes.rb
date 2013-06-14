@@ -1,4 +1,4 @@
-TbsRailsDemo::Application.routes.draw do
+BootstrapRailsDemo::Application.routes.draw do
   resources :products
 
 

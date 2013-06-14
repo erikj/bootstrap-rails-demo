@@ -1,4 +1,4 @@
-# twitter-bootstrap-rails-demo
+# bootstrap-rails-demo
 
 ## About
 
