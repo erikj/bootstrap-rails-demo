@@ -3,10 +3,7 @@ source 'https://rubygems.org'
 ruby "2.0.0"
 
 gem 'rubygems-bundler'
-gem 'rails', '4.0.0.beta1'
-
-gem 'activeresource', '4.0.0.beta1'
-
+gem 'rails', '4.0.0.rc2'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -25,7 +22,6 @@ gem 'haml-rails'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sprockets-rails', github: 'rails/sprockets-rails'
   gem 'coffee-rails', github: 'rails/coffee-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
