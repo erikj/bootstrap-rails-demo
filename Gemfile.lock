@@ -128,7 +128,6 @@ DEPENDENCIES
   coffee-rails!
   haml-rails
   less-rails
-  newrelic_rpm
   pg
   rails (= 4.0.0)
   rubygems-bundler
